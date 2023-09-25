@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Bikes" ALTER COLUMN "image" DROP DEFAULT;

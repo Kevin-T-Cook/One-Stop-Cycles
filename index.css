@@ -1,0 +1,605 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(221, 234, 247);
+    height: 60px;
+    padding: 20px;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+}
+
+.headerImage {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.headerImage > img {
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo > a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.bikeNav {
+    background-color: aquamarine;
+    padding-top: 70px;
+    width: 100%;
+}
+
+
+.rowOne {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.rowTwo {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around
+}
+
+.bikeSales{
+   background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/A7Mi0HvOjj8GR64-E6TB1A/o.jpg);
+   background-position: center;
+   border-radius: 10px;
+   width: 680px;
+   height: 550px;
+}
+
+.bikeSales > h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.buttonSales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bikeRepairs {
+    background-image: url(https://www.rei.com/dam/content_022717_0234_bike_maintenence_basics_lg.jpg);
+    background-size: 900px 550px;
+    border-radius: 10px;
+    width: 680px;
+    height: 550px;
+}
+
+
+.buttonRepairs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bikeParts > h1 {
+    color: black;
+    display: flex;
+    justify-content:right;
+    padding-right: 50px;
+    align-items: center;
+    padding-top: 200px;
+}
+
+
+.bikeRepairs > h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.buttonRepairs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonRepairs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.shopButton {
+    margin-left: auto;
+    display: block;
+    margin-right: 50px;
+}
+
+.bikeAccessories > h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.centerButton {
+    text-align: center;
+  }
+.bikeParts {
+    background-image: url(https://cdn.shopify.com/s/files/1/0247/5186/5946/files/Adjusting-Ebike-saddle-height_752b9db1-878f-405a-bb8c-810491e67ed5_2048x2048.jpg?v=1656061264);
+    background-size: 900px 550px;
+    background-position: center;
+    border-radius: 10px;
+    width: 680px;
+   height: 550px;
+}
+
+.bikeAccessories {
+    background-image: url(https://almsthre.com/cdn/shop/collections/ALMSTHRE-118_1600x.jpg?v=1673302979);
+    background-position: center;
+    background-size: 900px 550px;
+    border-radius: 10px;
+    width: 680px;
+   height: 550px;
+}
+
+.bikesImage {
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bikesImage > img {
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+}
+
+.bestTrails {
+    background-color: coral;
+}
+
+.storeHeader {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.storeDetails {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.storeDetails > img {
+    height: 400px;
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+.storeInfo {
+    margin-bottom: 80px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .address, .phoneNumber, .hours {
+    text-align: center;
+    margin: 0 20px; 
+  }
+  
+  .address svg, .phoneNumber svg, .hours svg {
+    margin-bottom: 10px; 
+  }
+
+footer {
+    background-color: gray;
+}
+
+.categoryContainer {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.roadBikes, .mtnbikes, .hybridBikes, .eBikes, .kidsBikes, .allBikesRender  {
+    background-color:rgb(242, 240, 243);
+    padding: 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 175px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.roadBikes, .mtnbikes, .hybridBikes, .eBikes, .kidsBikes > h3 {
+    text-decoration: underline;
+}
+
+.allBikesRender > h3 {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.roadBikes:hover{
+    box-shadow: 10px 10px 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mtnbikes:hover{
+    box-shadow: 10px 10px 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hybridBikes:hover{
+    box-shadow: 10px 10px 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.eBikes:hover{
+    box-shadow: 10px 10px 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.kidsBikes:hover{
+    box-shadow: 10px 10px 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.allBikesRender:hover{
+    box-shadow: 10px 10px 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.roadBikes > img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.mtnbikes > img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.hybridBikes > img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.eBikes > img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.kidsBikes > img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.bikesTitle {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.bikesContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.productContainer {
+    background-color: rgb(242, 240, 243);
+    width: 30%;
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.priceContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productContainer > h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dollarPrice{
+    font-size: larger;
+    font-weight: bold;
+    margin: 0px 0px 20px 100px;
+}
+
+.bikeDesc {
+    margin: 0px 20px 20px 20px;
+}
+
+@media (max-width: 768px) {
+    width: 100%;
+}
+
+.bikePhoto > img {
+    max-width: 80%;
+    max-height: 300px;
+    margin: 20px 0px;
+}
+
+.partsContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.partsPhoto > img {
+    max-width: 80%;
+    max-height: 300px;
+    margin: 0px 0px;
+}
+
+.partsTitle{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.accessoryContainer{
+       margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.accessoryPhoto > img {
+    max-width: 80%;
+    max-height: 300px;
+    margin: 0px 0px;
+}
+
+.accessoryTitle{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contactContainer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contactContainer h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contactContainer h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.form {
+    background-color: rgb(242, 240, 243);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form input, .form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.form button:hover {
+    background-color: #0056b3; 
+  }
+
+.submission-message {
+    font-size: 1.2em;
+    color: green;
+    margin-top: 5px;
+}
+
+.repairsTitle{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.repairImage{
+    height: 400px;
+    width: 100%
+}
+
+.serviceHeader {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0px 30px 0px;
+  }
+  
+  .tuneUps, .checkUps, .builds, .installations, .tires, .storage {
+    flex: 0 0 30%; 
+    margin-bottom: 20px; 
+    text-align: center; 
+  }
+  
+  .tuneUps svg, .checkUps svg, .builds svg, .installations svg, .tires svg, .storage svg {
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 10px; 
+  }
+  
+  .tuneUps h3, .checkUps h3, .builds h3, .installations h3, .tires h3, .storage h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .contactButton {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contactButton > h2 {
+    padding-bottom: 20px;
+  }
+
+  #myButton {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-bottom: 50px;
+  }
+  
+  #myButton:hover {
+    background-color: #0056b3; 
+  }
+
+  .cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .cart-container h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .cart-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cart-container li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    width: 30%;
+    margin-right: 3%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cart-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cart-container div {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .cart-container ul li {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+  }
+
+  .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-info img {
+    max-width: 100px; 
+    margin-right: 10px; 
+  }
+  
+  .cart-container li:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .cart-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .partsDesc, .accDesc{
+    margin-bottom: 10px
+  }
+
+  .partsPhoto, .accessoryPhoto {
+    margin-top: 10px;
+  }
+
